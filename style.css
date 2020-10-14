@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+    font-family: sans-serif;
+}
+
+#top_header {
+    width: 980px;
+    height: 65px;
+}
+
+#top_header img {
+    height: 80px;
+    display: inline-block;
+}
+
+#top_header h1 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    color: rgb(73, 73, 73);
+    font-weight: normal;
+}
+
+#top_header h1 span {
+    color: rgb(34, 101, 158);
+}
+
+#bottom_header {
+    background-color: rgb(80, 129, 172);
+    height: auto;
+    padding: 10px;
+    color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+#bottom_header h2 {
+    font-weight: normal;
+}
+
+#side_nav {
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 40px;
+    height: 500px;
+    display: inline-block;
+}
+
+#side_nav spanr {
+    color: red;
+}
+
+#side_nav spanb {
+    color: rgb(34, 101, 158);
+}
+
+#side_nav p {
+    padding: 10px 0px;
+}
+
+#side_nav button {
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: rgb(80, 129, 172);
+    margin: 2px 0px;
+    padding: 5px 0px;
+}
+
+#side_nav hr {
+    margin: 20px 0px;
+}
+
+#side_nav #orange {
+    background-color: orange;
+}
+
+#side_nav h3 {
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+    font-size: x-large;
+}
+
+#side_nav img {
+    width: 100px;
+    justify-content: center;
+}
+
+#side_nav .ad {
+    width: 200px;
+    height: 320px;
+    background-image: url(images/ad_background.png);
+    display: block;
+    text-align: center;
+}
+
+#side_nav .ad button {
+    width: 180px;
+    border-radius: 6px;
+}
+
+#top_box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#top_box .top_left {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#top_box .top_left img {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+#top_box .top_left h4 {
+    display: inline;
+    color: rgb(34, 101, 158);
+    font-weight: lighter;
+}
+
+#top_box .top_right {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}
+
+#top_box .phone {
+    width: 42px;
+    display: inline;
+    vertical-align: top;
+    padding-top: 5px;
+    margin-left: 445px;
+}
+
+#top_box hr {
+    margin-top: 10px;
+}
+
+#top_box .top_right h2 {
+    color: rgb(34, 101, 158);
+    font-weight: lighter;
+}
+
+#top_box .top_right p {
+    color: black;
+    font-size: x-small;
+}
+
+#main_box {
+    display: inline-block;
+    vertical-align: top;
+}
