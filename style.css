@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* border: 1px dotted red; */
+    border: 1px dotted red;
     font-family: sans-serif;
 }
 
@@ -30,6 +30,7 @@
 #bottom_header {
     background-color: rgb(80, 129, 172);
     height: auto;
+    width: 980px;
     padding: 10px;
     color: white;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -106,6 +107,7 @@
 #top_box {
     display: inline-block;
     vertical-align: top;
+    width: 750px;
 }
 
 #top_box .top_left {
@@ -156,4 +158,52 @@
 #main_box {
     display: inline-block;
     vertical-align: top;
+    width: 750px;
+}
+
+#main_box h3 {
+    color: rgb(34, 101, 158);
+}
+
+#main_box ul,
+ol {
+    padding-left: 40px;
+}
+
+#main_box spanb {
+    color: rgb(54, 173, 191);
+    font-weight: bolder;
+}
+
+#main_box img {
+    width: 300px;
+    padding-left: 225px;
+}
+
+#main_box .small_box {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+    width: 725px;
+    border: 4px solid rgb(34, 101, 158);
+}
+
+#main_box .small_box ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    padding-left: 20px;
+    width: 82%;
+}
+
+#main_box .small_box h3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main_box .small_box img {
+    width: 100px;
+    display: inline-block;
+    padding-left: 0px;
 }
